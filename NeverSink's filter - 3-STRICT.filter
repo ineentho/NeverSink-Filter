@@ -727,6 +727,14 @@ Show # %H3 %TB-Currency-T7
 # Example: This section displays 20% quality rares (between lvl 60 and 74), it's disabled by default, remove
 # The #'s in front of the next lines to enable it and show the items with a Cyan border.
 
+# Jewellery for chaos recipe
+Show
+    Class "Belts" "Rings" "Amulets"
+    Rarity = Rare
+    ItemLevel >= 60
+    SetBackgroundColor 75 75 75 # BACKGROUND: Recipes
+    SetFontSize 38
+
 # Show
 # Rarity Rare
 # Quality = 20
